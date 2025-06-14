@@ -4,6 +4,11 @@ A beautiful, responsive single-page React application to browse, search, and exp
 **Created by: Alveera Ahmad**
 
 ---
+# Deployment: 
+
+https://alveerraa.github.io/plant-care-library/
+
+---
 
 ## 🧩 Project Overview
 
