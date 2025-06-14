@@ -24,7 +24,6 @@ function App() {
     <div className="app">
       <h1 className="plant-heading">Plant Care Library 🪴</h1>
 
-      {/* Search Bar */}
       <input
         type="text"
         placeholder="Search by plant name"
@@ -32,7 +31,6 @@ function App() {
         onChange={(e) => setSearch(e.target.value)}
       />
 
-      {/* Filter Buttons */}
       <div className="filters">
         {["Easy", "Medium", "Hard"].map((level) => (
           <button
@@ -45,8 +43,7 @@ function App() {
         ))}
       </div>
 
-      {/* Plant Grid */}
-      <div className="plant-grid">
+        <div className="plant-grid">
         {filteredPlants.map((plant) => (
           <PlantCard
             key={plant.id}
@@ -56,7 +53,6 @@ function App() {
         ))}
       </div>
 
-      {/* Plant Details Modal */}
       {selectedPlant && (
         <PlantDetails
           plant={selectedPlant}
