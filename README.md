@@ -1,70 +1,62 @@
-# Getting Started with Create React App
+# 🌿 Plant Care Library 🪴
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A beautiful, responsive single-page React application to browse, search, and explore commonly known indoor plants and their care levels.  
+**Created by: Alveera Ahmad**
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🧩 Project Overview
 
-### `npm start`
+This app allows users to:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Browse a library of houseplants
+- Search by plant name in real-time
+- Filter by plant care levels (Easy, Medium, Hard)
+- Click a plant to view its full details in a pop-up modal
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech Stack & Choices
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Technologies Used
+- **React.js** – Functional components with hooks for modern and clean state management
+- **JavaScript** – For logic and interactivity
+- **CSS** – Used for styling, transitions, and responsiveness
+- **Git** – Version control
 
-### `npm run build`
+### Technical Decisions
+- **Local JSON file as mock API**: I chose to import `plantsData.js` directly to simulate API data for simplicity.
+- **React Hooks** (`useState`, `useEffect`): I opted for Hooks for concise and functional state management.
+- **CSS for styling**: Since the project is small, vanilla CSS was sufficient. I added hover effects, animations, and a responsive grid layout without the need for an external UI library.
+- **Modal for plant details**: Instead of routing to a new page, I used a modal for a smoother user experience.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Run the App Locally
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the Repository
 
-### `npm run eject`
+git clone https://github.com/YOUR_USERNAME/plant-care-library.git
+cd plant-care-library
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Then open http://localhost:3000 in your browser to view the app.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## Challenges Faced
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+-I wanted the app to look clean and approachable without using heavy UI libraries. So, getting the balance right with basic CSS animations and responsiveness took a bit of experimentation.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+-Setting up the modal for plant details without using external libraries was tricky at first. I had to make sure clicking outside the modal or hitting escape would close it properly without breaking anything.
 
-### Code Splitting
+-At first, I used a .json file, but switching to a JavaScript file (plantsData.js) made it easier to load local images using require(), which React didn’t support directly from JSON.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Assumptions Made
 
-### Analyzing the Bundle Size
+-I assumed users would be using the app on modern browsers and relatively recent devices, so I didn’t do any legacy browser compatibility work.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+-Since this is a demo project, I used freely available images from Google instead of hosting my own or sourcing them from a plant database.
