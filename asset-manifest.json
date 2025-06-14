@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.724d9cd6.css",
-    "main.js": "/static/js/main.efe0a2ff.js",
-    "static/js/453.117f4b0f.chunk.js": "/static/js/453.117f4b0f.chunk.js",
-    "static/media/aloe.png": "/static/media/aloe.29da158f121699642df9.png",
-    "static/media/lily.png": "/static/media/lily.be1a1a16004fa4ed8469.png",
-    "static/media/money.png": "/static/media/money.067ed2f3834329929afa.png",
-    "static/media/tulsi.png": "/static/media/tulsi.4154f1e7f38e90c919d9.png",
-    "static/media/areca.png": "/static/media/areca.9df38cbf6dea1aee8d9d.png",
-    "index.html": "/index.html",
-    "main.724d9cd6.css.map": "/static/css/main.724d9cd6.css.map",
-    "main.efe0a2ff.js.map": "/static/js/main.efe0a2ff.js.map",
-    "453.117f4b0f.chunk.js.map": "/static/js/453.117f4b0f.chunk.js.map"
+    "main.css": "/plant-care-library/static/css/main.724d9cd6.css",
+    "main.js": "/plant-care-library/static/js/main.38ae216a.js",
+    "static/js/453.117f4b0f.chunk.js": "/plant-care-library/static/js/453.117f4b0f.chunk.js",
+    "static/media/aloe.png": "/plant-care-library/static/media/aloe.29da158f121699642df9.png",
+    "static/media/lily.png": "/plant-care-library/static/media/lily.be1a1a16004fa4ed8469.png",
+    "static/media/money.png": "/plant-care-library/static/media/money.067ed2f3834329929afa.png",
+    "static/media/tulsi.png": "/plant-care-library/static/media/tulsi.4154f1e7f38e90c919d9.png",
+    "static/media/areca.png": "/plant-care-library/static/media/areca.9df38cbf6dea1aee8d9d.png",
+    "index.html": "/plant-care-library/index.html",
+    "main.724d9cd6.css.map": "/plant-care-library/static/css/main.724d9cd6.css.map",
+    "main.38ae216a.js.map": "/plant-care-library/static/js/main.38ae216a.js.map",
+    "453.117f4b0f.chunk.js.map": "/plant-care-library/static/js/453.117f4b0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.724d9cd6.css",
-    "static/js/main.efe0a2ff.js"
+    "static/js/main.38ae216a.js"
   ]
 }
